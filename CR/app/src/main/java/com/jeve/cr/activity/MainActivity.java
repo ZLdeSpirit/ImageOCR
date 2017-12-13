@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
 
 public class MainActivity extends BaseActivity {
     TextView textView;
-
+    private static final String TAG = "zl---MainActivity---";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
