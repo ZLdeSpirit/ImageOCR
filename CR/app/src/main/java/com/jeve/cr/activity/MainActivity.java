@@ -23,6 +23,8 @@ import java.lang.reflect.Method;
 
 public class MainActivity extends BaseActivity {
     TextView textView;
+    private String string11= "11111";
+    private String string22 = "2222";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
